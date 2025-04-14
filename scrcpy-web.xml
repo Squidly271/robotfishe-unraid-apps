@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>scrcpy-web</Name>
+  <Repository>robotfishe/scrcpy-web</Repository>
+  <Registry>https://hub.docker.com/r/robotfishe/scrcpy-web/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://hub.docker.com/r/robotfishe/scrcpy-web/</Support>
+  <Project/>
+  <Overview>Runs scrcpy and x11vnc to allow you to control an Android device over a VNC connection.</Overview>
+  <Category>Tools</Category>
+  <WebUI>http://[IP]:[PORT:5900]
+  <TemplateURL/>
+  <Icon>https://github.com/Genymobile/scrcpy/raw/master/app/data/icon.svg</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled/>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Container Port 1" Target="5900" Default="5900" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="Container Variable 1" Target="VNC_SCREEN_SIZE" Default="" Mode="{3}" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Container Variable 2" Target="VNC_PASSWORD" Default="" Mode="{3}" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Container Variable 3" Target="SCRCPY_ARGS" Default="" Mode="{3}" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Host Device 1" Target="/dev/bus" Default="" Mode="" Description="" Type="Device" Display="always" Required="false" Mask="false">/dev/bus</Config>
+  <TailscaleStateDir/>
+</Container>
