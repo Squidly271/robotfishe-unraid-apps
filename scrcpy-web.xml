@@ -24,7 +24,7 @@
   <Config Name="Container Port 1" Target="5900" Default="5900" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false"></Config>
   <Config Name="Container Variable 1" Target="VNC_SCREEN_SIZE" Default="" Mode="{3}" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
   <Config Name="Container Variable 2" Target="VNC_PASSWORD" Default="" Mode="{3}" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
-  <Config Name="Container Variable 3" Target="SCRCPY_ARGS" Default="" Mode="{3}" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Container Variable 3" Target="SCRCPY_ARGS" Default="-wS --no-audio" Mode="{3}" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
   <Config Name="Host Device 1" Target="/dev/bus" Default="" Mode="" Description="" Type="Device" Display="always" Required="false" Mask="false">/dev/bus</Config>
   <TailscaleStateDir/>
 </Container>
